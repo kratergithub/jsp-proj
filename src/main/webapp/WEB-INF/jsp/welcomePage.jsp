@@ -1,9 +1,10 @@
 <html>
 <head>
-<title>JSP Test</title>
-<style type="text/css">
-</style>
+<title>JSP Test - Welcome</title>
+<style type="text/css"></style>
 </head>
-<body>${message}
+<body>
+	<div>${message}</div>
+	<a href="simpleData">Show data</a>
 </body>
 </html>
