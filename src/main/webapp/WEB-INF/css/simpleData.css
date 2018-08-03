@@ -18,7 +18,7 @@ div {
 	text-align: center;
 }
 
-#result {
+.result {
 	color: orange;
 	font-weight: bold;
 }

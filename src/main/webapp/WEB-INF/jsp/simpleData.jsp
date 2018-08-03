@@ -6,6 +6,8 @@
 <body>
 	<div id="title"> --- DATA --- </div>
 	<br>
-	<div id="result"> ${result} </div>
+	<div id=result1 class="result"> User: ${result.firstUser} <br> Place: ${result.firstPlace}</div>
+	<br>
+	<div id=result2 class="result"> Random user: ${result.randomUser} </div>
 </body>
 </html>

@@ -21,7 +21,7 @@ public final class SimpleData {
 	}
 	
 	public static String getRandomUser() {		
-		int index = (int)(Math.random() * (users.size() + 1));
+		int index = (int)(Math.random() * users.size());
 		return users.get(index);
 	}
 

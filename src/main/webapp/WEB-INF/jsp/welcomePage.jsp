@@ -5,6 +5,8 @@
 </head>
 <body>
 	<div>${message}</div>
-	<a href="simpleData">Show data</a>
+	<div>
+		<a href="simpleData">Show simple data</a>
+	</div>
 </body>
 </html>
