@@ -7,7 +7,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class WelcomeController {
 
-	@RequestMapping("/welcome")
+	//@RequestMapping("/welcome")
+	@RequestMapping(value = { "/", "/welcome" })
 	public ModelAndView helloWorld() {
 
 		String welcomeMessage = "<br><div style='text-align:center;'>" + "Welcome!</div><br>";

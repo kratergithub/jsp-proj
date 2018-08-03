@@ -15,7 +15,7 @@ public class SimpleDataController {
 		String firstUser = SimpleData.getFirstUser();
 		String firstPlace = SimpleData.getFirstPlace();
 		
-		String dataResult = "<br>User: " + firstUser + "<br> Place: " + firstPlace + "<br>";
+		String dataResult = "User: " + firstUser + "<br> Place: " + firstPlace;
 		
 		return new ModelAndView("simpleData", "result", dataResult);
 

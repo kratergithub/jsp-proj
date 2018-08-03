@@ -4,7 +4,8 @@
 <style><%@include file="/WEB-INF/css/simpleData.css"%></style>
 </head>
 <body>
-	<div id="title">--- DATA ---</div>
-	<div id="result" >${result}</div>
+	<div id="title"> --- DATA --- </div>
+	<br>
+	<div id="result"> ${result} </div>
 </body>
 </html>
