@@ -14,9 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class CalculatorController {
 
 	@GetMapping("/calculator")
-	public ModelAndView calculatorGet() {
+	public String calculatorGet() {
 
-		return new ModelAndView("calculator", "operationresult", "");
+		return "calculator";
 	}
 
 	@PostMapping("/calculator")
